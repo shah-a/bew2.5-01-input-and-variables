@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("===== MENU =====")
 		fmt.Println("To run the year calculator, enter \"year\"")
 		fmt.Println("To run the weight calculator, enter \"weight\"")
-		fmt.Println("To exit, enter any other input.\n")
+		fmt.Println("To exit, enter anything else.\n")
 		fmt.Print("-> ")
 
 		if _, err := fmt.Fscanln(reader, &input); err != nil {
